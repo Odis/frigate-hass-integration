@@ -30,7 +30,7 @@ CONF_ENABLED = "enabled"
 
 # Defaults
 DEFAULT_NAME = DOMAIN
-DEFAULT_HOST = "http://ccab4aaf-frigate:5000"
+DEFAULT_HOST = "http://22.28.1.80:5001"
 
 
 STARTUP_MESSAGE = f"""
