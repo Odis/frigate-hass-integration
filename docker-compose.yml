@@ -32,7 +32,7 @@ services:
       - .devcontainer/frigate.yml:/config/config.yml:ro
       - ./frigate:/media/frigate
     ports:
-      - "5000:5000"
+      - "5001:5001"
       - "1935:1935"
   mqtt:
     container_name: mqtt
